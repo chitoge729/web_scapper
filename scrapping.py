@@ -162,6 +162,7 @@ class jsonInputData:
 
         return date
 
+
     def dataframe(self):
         date = self.convert_to_date()
 
@@ -180,7 +181,7 @@ def main():
     a.bing()
     a.convert_to_date
     a.dataframe()
-    
+
 
 if __name__ == "__main__":
     main()
